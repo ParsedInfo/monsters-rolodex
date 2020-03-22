@@ -8,26 +8,14 @@ class App extends Component {
     super();
 
     this.state = {
-      monsters: [
-        {
-          name: 'Frankenstein',
-          id: 'acs1'
-        },
-        {
-          name: 'Dracula',
-          id: 'acs2'
-        },
-        {
-          name: 'Zombie',
-          id: 'acs3'
-        },
-        {
-          name: 'Skeleton',
-          id: 'acs3'
-        }
-      ]
+      monsters: []
     }
   }
+
+  componentDidMount(){
+
+  }
+
 render() {
   return (
     <div className="App">
