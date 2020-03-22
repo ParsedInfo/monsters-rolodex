@@ -20,6 +20,10 @@ class App extends Component {
         {
           name: 'Zombie',
           id: 'acs3'
+        },
+        {
+          name: 'Skeleton',
+          id: 'acs3'
         }
       ]
     }
